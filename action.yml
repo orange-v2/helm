@@ -1,6 +1,6 @@
-name: Deliverybot Helm Action forked by glopezep
+name: Deliverybot Helm Action forked by orange-v2
 description: Deploys a helm chart
-author: glopezep
+author: orange-v2
 icon: box
 color: gray-dark
 inputs:
@@ -44,6 +44,9 @@ inputs:
     required: false
   version:
     description: Version of the app, usually commit sha works here.
+    required: false
+  timeout:
+    description: Timeout to wait for deployment conditions.
     required: false
 runs:
   using: docker

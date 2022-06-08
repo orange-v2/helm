@@ -1,3 +1,9 @@
+# Disclaimer
+
+This is a fork of https://github.com/glopezep/helm which contains a fixed version of https://github.com/deliverybot/helm
+
+The fork has been made because of the major issue with the upsteam helm action: https://github.com/deliverybot/helm/issues/66
+
 # Helm Action
 
 Deploys a helm chart using GitHub actions. Supports canary deployments and

@@ -1,12 +1,12 @@
 {
   "name": "status",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://github.com/glopezep/helm",
+  "homepage": "https://github.com/orange-v2/helm",
   "author": {
-    "name": "glopezep",
-    "url": "https://github.com/glopezep"
+    "name": "orange-v2",
+    "url": "https://github.com/orange-v2"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
